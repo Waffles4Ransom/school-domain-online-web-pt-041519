@@ -19,7 +19,9 @@ class School
   end
   
   def sort 
-     roster.sort_by(name).to_h
+     roster. each do |k,v|
+       v.sort
+     end
   end
   
 end
