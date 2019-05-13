@@ -14,7 +14,10 @@ class School
   end
   
   def grade(grade)
-    ROSTER
+    ROSTER[:grade]
   end
   
+  def sort 
+    ROSTER.sort
+  end
 end
